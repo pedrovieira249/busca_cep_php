@@ -185,6 +185,7 @@
 				</div>
 			</div>
 		</div>
+		<?php if( (isset($_POST['cep_ori']) && !empty($_POST['cep_ori'])) && (isset($_POST['cep_ori']) && !empty($_POST['cep_ori'])) ) { ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -215,6 +216,7 @@
 				</div>
 			</div>
 		</div><br><br><br>
+	    <?php } ?>
 	</body>
 	<script type="text/javascript" src="_js/jquery.min.js"></script>
 	<script type="text/javascript" src="_js/popper.min.js"></script>
